@@ -1,0 +1,142 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "web:http://files.pqtato.pw/img/logo_apmc.png",
+            "posX" : -165,
+            "posY" : 45,
+            "width" : 339,
+            "height" : 24,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 24,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "web:http://files.pqtato.pw/img/button.png",
+			"imageHeight" : 16,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+		
+		"join":
+        {
+            "text" : "Join Ancient Populations MC",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "web:http://files.pqtato.pw/img/button.png",
+			"imageHeight" : 16,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "mc.pqtato.pw"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "web:http://files.pqtato.pw/img/button.png",
+			"imageHeight" : 16,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+			"texture" : "web:http://files.pqtato.pw/img/button.png",
+			"imageHeight" : 16,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "web:http://files.pqtato.pw/img/button.png",
+			"imageHeight" : 16,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+			"texture" : "web:http://files.pqtato.pw/img/button.png",
+			"imageHeight" : 16,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+			"texture" : "web:http://files.pqtato.pw/img/button_lang.png",
+			"imageHeight" : 64,
+			"imageWidth" : 64,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+    },
+    
+    "labels":
+    {
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "web:http://files.pqtato.pw/img/bg_apmc.png",
+            "mode" : "fill"
+        }
+    }
+}
