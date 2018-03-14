@@ -1,5 +1,6 @@
-:root {
-  --accent-color: #7289DA !important;
-  --notification-color: #FFFFFF !important;
-  --important-notification-color: #F04747 !important;
-}
+/* Fixes some problems that you might be having */
+@import url("https://gist.githubusercontent.com/intrnl/9f623d1a89e416d2fe4f1a3aca721653/raw/3ee823d392692ad145786f517a63e86c4678498d/_oct17_transparencyfix.css");
+/* Smarter Embeds*/
+@import url("https://raw.githubusercontent.com/BeardDesign1/SmarterEmbeds/master/SmarterEmbeds.theme.css");
+/* Material Switches */
+@import url("https://raw.githubusercontent.com/BeardDesign1/Material-design-switches/themes/Material_Switches.theme.css");
