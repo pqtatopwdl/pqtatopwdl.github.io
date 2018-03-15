@@ -1,6 +1,6 @@
 /* Staff special labels */
 .avatar-large[style*="209419219899514880"]+.comment .timestamp::before {
-    content: 'Awesome!';
+    content: 'APMC Creator';
     border-color: #ff6395;
     background: #b82553;
     box-shadow: 0 0 5px 1px #9e1842, inset 0 0 10px rgba(158,24,66, 0.7);
