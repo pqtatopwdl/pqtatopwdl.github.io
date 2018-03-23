@@ -1,0 +1,15 @@
+/* ======================================================== */
+/* ================ PQTATO'S AWESOME BADGE ================ */
+/* ======================================================== */
+
+/*--- chat area, includes main chat, mentions popout, pinned messages, etc ---*/
+.avatar-large[style*="209419219899514880"]+.comment .username-wrapper::after,
+/*--- channel members wrap ---*/
+.avatar-small[style*="209419219899514880"]+.member-inner .member-username-inner::before,
+/*--- friends list ---*/
+.avatar-small[style*="209419219899514880"]+.discord-tag .username::after,
+/*--- user profile friends list ---*/
+.avatar-large[style*="209419219899514880"]+.guild-inner .username::after {
+    content: '';
+    background: url('http://files.pqtato.pw/admin.png');
+}
